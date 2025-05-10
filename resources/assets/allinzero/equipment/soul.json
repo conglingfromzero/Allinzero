@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "allinzero:soul_layer_1"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "allinzero:soul_layer_2"
+      }
+    ]
+  }
+}
