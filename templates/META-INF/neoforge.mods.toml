@@ -1,0 +1,46 @@
+modLoader="javafml"
+
+loaderVersion="[4,)"
+
+license="All Rights Reserved"
+
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/"
+
+[[mods]]
+modId="allinzero"
+
+version="1.0.0-Snapshot-2"
+
+displayName="Allinzero-1.0.0-Snapshot-2"
+
+#updateJSONURL="https://change.me.example.invalid/updates.json"
+
+displayURL="https://space.bilibili.com/593702908?spm_id_from=333.1007.0.0"
+
+logoFile="logo.png"
+
+credits="感谢Aqua3提供的程序辅助及指导"
+
+authors="从零Fromzero"
+
+description='''一款高难度大型冒险模组，感谢下载游玩'''
+
+#[[mixins]]
+#config="${mod_id}.mixins.json"
+
+#[[accessTransformers]]
+#file="META-INF/accesstransformer.cfg"
+
+[[dependencies.allinzero]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.4.134,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.allinzero]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.4,1.21.5)"
+    ordering="NONE"
+    side="BOTH"
