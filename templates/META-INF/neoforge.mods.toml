@@ -2,16 +2,16 @@ modLoader="javafml"
 
 loaderVersion="[4,)"
 
-license="All Rights Reserved"
+license="MIT"
 
 #issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/"
 
 [[mods]]
 modId="allinzero"
 
-version="1.0.0-Snapshot-2"
+version="1.0.0-Snapshot 4"
 
-displayName="Allinzero-1.0.0-Snapshot-2"
+displayName="Allinzero-1.0.0-Snapshot 4"
 
 #updateJSONURL="https://change.me.example.invalid/updates.json"
 
@@ -26,7 +26,7 @@ authors="从零Fromzero"
 description='''一款高难度大型冒险模组，感谢下载游玩'''
 
 #[[mixins]]
-#config="${mod_id}.mixins.json"
+#config="${mod_id}.mixins.soul_boots.json"
 
 #[[accessTransformers]]
 #file="META-INF/accesstransformer.cfg"
