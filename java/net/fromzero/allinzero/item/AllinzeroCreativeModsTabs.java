@@ -23,6 +23,8 @@ public class AllinzeroCreativeModsTabs {
 		output.accept(AllinzeroItems.SOUL_STONE.get());
 		output.accept(AllinzeroItems.GHOST_STONE_BLOCK.get());
 		output.accept(AllinzeroItems.FROMZERO.get());
+		output.accept(AllinzeroItems.GHOST_SPAR.get());
+		output.accept(AllinzeroItems.SOUL_SPAR.get());
 	}).build());
 
 	public static final Supplier<CreativeModeTab> Allinzero_BLOCKS_TAB = TABS.register("allinzero_blocks_tab",

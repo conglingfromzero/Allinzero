@@ -1,7 +1,7 @@
 package net.fromzero.allinzero.datagen;
 
-import net.fromzero.allinzero.worlden.featre.AllinzeroConfiguredFeatures;
-import net.fromzero.allinzero.worlden.featre.AllinzeroPlacedFeatures;
+import net.fromzero.allinzero.worldgen.featre.AllinzeroConfiguredFeatures;
+import net.fromzero.allinzero.worldgen.featre.AllinzeroPlacedFeatures;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.RegistrySetBuilder;
 import net.minecraft.core.registries.Registries;
