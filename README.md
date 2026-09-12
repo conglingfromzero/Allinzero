@@ -1,25 +1,18 @@
+一切于零
+这是一切于零的官方Github页面。
 
-Installation information
-=======
+这个分支是为Mod的1.21.1版本而用。
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+免责声明
+本GitHub代码仓库所提供代码仅供查看用途。在协议允许下，您仅能够将对代码的更改应用于个人用途。 对代码的重分发是对协议条款的违反。
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+这里提供的代码将无法更改。在此处可见的代码仅为来自于最新的公开发行版本。 因此，对这个代码仓库所有的非翻译代码的提交将会被立即删除。您可以在Issues里提交漏洞报告，也可以为Mod的更改提供建议。
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+这里能干什么？
+你可以做以下两件事：
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+提交漏洞报告。前往issue页面，并单击“New issue”。
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+提交建议。前往issue页面，单击“New Issue”并选择你提交的建议类型。
+
+--
