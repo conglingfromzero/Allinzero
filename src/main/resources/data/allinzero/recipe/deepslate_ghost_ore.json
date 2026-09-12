@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "ghoststone",
+  "ingredient": {
+    "item": "allinzero:deepslate_ghost_ore"
+  },
+  "result": {
+    "id": "allinzero:ghoststone"
+  }
+}

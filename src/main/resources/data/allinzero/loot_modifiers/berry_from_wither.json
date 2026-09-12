@@ -1,0 +1,14 @@
+{
+  "type": "allinzero:add_item",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:entities/bosses/wither"
+    },
+    {
+      "chance": 1.0,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "allinzero:soul_upgrade_smithing_template"
+}

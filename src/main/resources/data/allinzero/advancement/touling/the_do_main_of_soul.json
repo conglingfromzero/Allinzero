@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "access_dim_touling": {
+      "conditions": {
+        "to": "allinzero:touling"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "allinzero:textures/gui/advancements/backgrounds/soul_stone.png",
+    "description": {
+      "color": "green",
+      "translate": "advancements.allinzero.touling.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "allinzero:soulstone"
+    },
+    "title": {
+      "color": "blue",
+      "translate": "advancements.allinzero.touling.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "access_dim_touling"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "allinzero:ghoststone"
+    },
+    "A": {
+      "item": "allinzero:soulstone"
+    }
+  },
+  "pattern": [
+    "XAX",
+    "A A",
+    "X X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "allinzero:ghost_leggings"
+  }
+}

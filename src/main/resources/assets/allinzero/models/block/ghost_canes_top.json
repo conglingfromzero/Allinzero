@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "allinzero:block/ghost_canes_top"
+  }
+}

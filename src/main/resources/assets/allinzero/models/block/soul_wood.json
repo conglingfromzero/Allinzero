@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "allinzero:block/soul_wood_top",
+    "up": "allinzero:block/soul_wood_top",
+    "north": "allinzero:block/soul_wood",
+    "south": "allinzero:block/soul_wood",
+    "east": "allinzero:block/soul_wood",
+    "west": "allinzero:block/soul_wood",
+    "particle": "allinzero:block/soul_wood"
+  }
+}

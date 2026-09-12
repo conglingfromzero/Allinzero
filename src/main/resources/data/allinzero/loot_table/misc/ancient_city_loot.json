@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": true,
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "allinzero:soul_upgrade_smithing_template",
+          "quality": 1,
+          "weight": 10
+        }
+      ],
+      "name": "soul_upgrade_smithing_template",
+      "rolls": 10
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "allinzero:soul_grass",
+    "allinzero:soul_grass_block",
+    "allinzero:soul_stone",
+    "allinzero:soul_wood",
+    "allinzero:soul_leaves",
+    "allinzero:ghost_wood",
+    "allinzero:ghost_leaves"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "allinzero:touling_plains",
+      "required": false
+    },
+    {
+      "id": "allinzero:touling_caves",
+      "required": false
+    }
+  ]
+}

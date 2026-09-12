@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+  "C": {
+    "tag": "c:gems/diamond"
+  },
+  "D": {
+    "item": "allinzero:ghost_stone_block"
+  },
+  "F": {
+    "item": "allinzero:soul_upgrade_smithing_template"
+  }
+},
+  "pattern": [
+    "CFC",
+    "DCD",
+    "DDD"
+  ],
+  "result": {
+    "count": 2,
+    "id": "allinzero:soul_upgrade_smithing_template"
+  }
+}

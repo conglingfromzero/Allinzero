@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "allinzero:block/soul_stone",
+    "up": "allinzero:block/soul_grass_top",
+    "north": "allinzero:block/soul_grass_side",
+    "south": "allinzero:block/soul_grass_side",
+    "east": "allinzero:block/soul_grass_side",
+    "west": "allinzero:block/soul_grass_side",
+    "particle": "allinzero:block/soul_grass_side"
+  }
+}

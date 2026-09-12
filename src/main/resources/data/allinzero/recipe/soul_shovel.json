@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "allinzero:soulstone"
+  },
+  "base": {
+    "item": "allinzero:ghost_shovel"
+  },
+  "result": {
+    "count": 1,
+    "id": "allinzero:soul_shovel"
+  },
+  "template": {
+    "item": "allinzero:soul_upgrade_smithing_template"
+  }
+}

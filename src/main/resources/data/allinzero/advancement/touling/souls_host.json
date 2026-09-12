@@ -1,0 +1,43 @@
+{
+  "parent": "allinzero:touling/remnants_of_the_lord_of_the_ghost",
+  "criteria": {
+    "kill_touling_congling": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "allinzero:touling_congling"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "show_toast": true,
+    "announce_to_chat": true,
+    "description": {
+      "color": "blue",
+      "translate": "advancements.allinzero.touling.souls_host.root.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "allinzero:soul_sword"
+    },
+    "title": {
+      "color": "blue",
+      "translate": "advancements.allinzero.touling.souls_host.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "kill_touling_congling"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

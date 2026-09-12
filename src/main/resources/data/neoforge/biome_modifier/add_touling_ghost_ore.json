@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "allinzero:touling_caves",
+  "features": "allinzero:touling_ghost_placed",
+  "step": "underground_ores"
+}

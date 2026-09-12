@@ -1,0 +1,43 @@
+{
+  "parent": "allinzero:touling/souls_host",
+  "criteria": {
+    "the_fire_is_a_good_thing": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "allinzero:touling_congling"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "show_toast": true,
+    "announce_to_chat": true,
+    "description": {
+      "color": "blue",
+      "translate": "advancements.allinzero.touling.the_fire_is_a_good_thing.root.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "allinzero:soul_sword"
+    },
+    "title": {
+      "color": "blue",
+      "translate": "advancements.allinzero.touling.the_fire_is_a_good_thing.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "fire_kill_touling_congling"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "allinzero:completionist/the_thing_of_ghost",
+  "criteria": {
+    "allinzero:soulstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "allinzero:soulstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "show_toast": true,
+    "announce_to_chat": true,
+    "icon": {
+      "id": "allinzero:soulstone"
+    },
+    "title": {
+      "color": "green",
+      "translate": "advancements.allinzero.completionist.more_energy.title"
+    },
+    "description": {
+      "translate": "advancements.allinzero.completionist.more_energy.description"
+    }
+  },
+  "requirements": [
+    [
+      "allinzero:more_energy"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

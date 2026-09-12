@@ -1,0 +1,6 @@
+{
+  "parent": "allinzero:item/ghost_bow",
+  "textures": {
+    "layer0": "allinzero:item/ghost_bow_pulling_2"
+  }
+}

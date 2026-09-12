@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "allinzero:root": {
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "show_toast": false,
+    "announce_to_chat": false,
+    "background": "allinzero:textures/gui/advancements/backgrounds/soul_stoneock.png",
+    "icon": {
+      "id": "allinzero:fromzero"
+    },
+    "title": {
+      "translate": "advancements.allinzero.root.title"
+    },
+    "description": {
+      "translate": "advancements.allinzero.root.description"
+    }
+  },
+  "requirements": [
+    [
+      "allinzero:root"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

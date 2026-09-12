@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures":
+  {
+    "layer0": "allinzero:block/ghost_canes_top"
+  }
+}

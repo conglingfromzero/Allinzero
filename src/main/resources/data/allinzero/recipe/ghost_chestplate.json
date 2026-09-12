@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "allinzero:ghoststone"
+    },
+    "A": {
+      "item": "allinzero:soulstone"
+    }
+  },
+  "pattern": [
+    "X X",
+    "AXA",
+    "XAX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "allinzero:ghost_chestplate"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "allinzero:touling/the_do_main_of_soul",
+  "criteria": {
+    "allinzero:soul_spar": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "allinzero:soul_spar"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "show_toast": true,
+    "announce_to_chat": true,
+    "icon": {
+      "id": "allinzero:soul_spar"
+    },
+    "title": {
+      "color": "green",
+      "translate": "advancements.allinzero.remnants_of_the_lord_of_the_ghost.title"
+    },
+    "description": {
+      "translate": "advancements.allinzero.remnants_of_the_lord_of_the_ghost.description"
+    }
+  },
+  "requirements": [
+    [
+      "allinzero:soul_spar"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

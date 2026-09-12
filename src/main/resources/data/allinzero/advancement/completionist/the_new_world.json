@@ -1,0 +1,35 @@
+{
+  "parent": "allinzero:completionist/root",
+  "criteria": {
+    "crafting_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crafting_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:crafting_table"
+    }
+  },
+  "display": {
+    "show_toast": true,
+    "announce_to_chat": true,
+    "icon": {
+      "id": "allinzero:soul_sword"
+    },
+    "title": {
+      "color": "green",
+      "translate": "advancements.allinzero.completionist.the_new_world.title"
+    },
+    "description": {
+      "translate": "advancements.allinzero.completionist.the_new_world.description"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:crafting_table"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

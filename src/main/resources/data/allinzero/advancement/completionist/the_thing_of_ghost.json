@@ -1,0 +1,37 @@
+{
+  "parent": "allinzero:completionist/the_new_world",
+  "criteria": {
+    "allinzero:ghoststone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "allinzero:ghoststone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "show_toast": true,
+    "announce_to_chat": true,
+    "icon": {
+      "id": "allinzero:ghoststone"
+    },
+    "title": {
+      "color": "green",
+      "translate": "advancements.allinzero.completionist.the_thing_of_ghost.title"
+    },
+    "description": {
+      "translate": "advancements.allinzero.completionist.the_thing_of_ghost.description"
+    }
+  },
+  "requirements": [
+    [
+      "allinzero:the_thing_of_ghost"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

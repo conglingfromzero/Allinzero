@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "allinzero:block/stripped_ghost_wood_top",
+    "up": "allinzero:block/stripped_ghost_wood_top",
+    "north": "allinzero:block/stripped_ghost_wood",
+    "south": "allinzero:block/stripped_ghost_wood",
+    "east": "allinzero:block/stripped_ghost_wood",
+    "west": "allinzero:block/stripped_ghost_wood",
+    "particle": "allinzero:block/stripped_ghost_wood"
+  }
+}
