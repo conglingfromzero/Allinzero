@@ -64,7 +64,7 @@ public class SoulCowEntity extends Animal {
     public static AttributeSupplier.Builder createAttributes() {
         AttributeSupplier.Builder builder = Mob.createMobAttributes();
         builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
-        builder = builder.add(Attributes.MAX_HEALTH, (double)10.0F);
+        builder = builder.add(Attributes.MAX_HEALTH, (double)150.0F);
         builder = builder.add(Attributes.FOLLOW_RANGE, (double)16.0F);
         builder = builder.add(Attributes.STEP_HEIGHT, 0.6);
         return builder;

@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": ["allinzero:touling_plains", "allinzero:touling_caves"],
+  "spawners": [
+    {
+      "type": "allinzero:phos_phor",
+      "weight": 20,
+      "minCount": 1,
+      "maxCount": 2
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "decoration",
+  "key": {
+    "W": {
+      "item": "allinzero:soul_wool"
+    },
+    "P": {
+      "item": "allinzero:soul_wood_planks"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "PPP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "allinzero:soul_bed"
+  }
+}

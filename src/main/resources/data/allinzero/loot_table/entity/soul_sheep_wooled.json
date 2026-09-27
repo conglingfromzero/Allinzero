@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "allinzero:soul_wool"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "allinzero:entities/soul_sheep"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "allinzero:entities/soul_sheep_wooled"
+}

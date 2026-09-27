@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "allinzero:block/soul_stone_slab"
+    },
+    "type=double": {
+      "model": "allinzero:block/soul_stone"
+    },
+    "type=top": {
+      "model": "allinzero:block/soul_stone_slab_top"
+    }
+  }
+}

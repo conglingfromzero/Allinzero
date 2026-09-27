@@ -19,9 +19,6 @@ import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 
 import java.util.Optional;
 
-/**
- * 打火石右键灵魂石砖门框内侧时激活透灵传送门。
- */
 @EventBusSubscriber(modid = Allinzero.MODID)
 public class ToulingPortalActivator {
 

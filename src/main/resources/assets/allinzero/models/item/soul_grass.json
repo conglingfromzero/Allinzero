@@ -1,3 +1,6 @@
 {
-  "parent":"allinzero:block/soul_grass"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "allinzero:block/soul_grass"
+  }
 }

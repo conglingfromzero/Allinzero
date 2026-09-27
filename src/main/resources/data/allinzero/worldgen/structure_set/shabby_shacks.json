@@ -1,0 +1,27 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 711325010,
+    "separation": 10,
+    "spacing": 20,
+    "spread_type": "linear"
+  },
+  "structures": [
+    {
+      "structure": "allinzero:shabby_ghost_shack1",
+      "weight": 1
+    },
+    {
+      "structure": "allinzero:shabby_ghost_shack2",
+      "weight": 1
+    },
+    {
+      "structure": "allinzero:shabby_soul_shack1",
+      "weight": 1
+    },
+    {
+      "structure": "allinzero:shabby_soul_shack2",
+      "weight": 1
+    }
+  ]
+}

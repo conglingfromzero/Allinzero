@@ -3,7 +3,7 @@
   "conditions": [
     {
       "condition": "neoforge:loot_table_id",
-      "loot_table_id": "minecraft:entities/bosses/wither"
+      "loot_table_id": "minecraft:entities/wither"
     },
     {
       "chance": 1.0,

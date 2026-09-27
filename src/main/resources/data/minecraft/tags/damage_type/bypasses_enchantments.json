@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "allinzero:soul_erosion"
+    "allinzero:soul_erosion",
+    "allinzero:soul_possession"
   ]
 }

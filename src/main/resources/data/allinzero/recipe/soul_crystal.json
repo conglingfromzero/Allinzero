@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "result": {
+    "id": "allinzero:soul_crystal",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "allinzero:soul_spar"
+    },
+    {
+      "item": "allinzero:ghost_spar"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "allinzero:touling/souls_host",
+  "criteria": {
+    "enter_nether_altar": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "allinzero:nether_altar"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "show_toast": true,
+    "announce_to_chat": true,
+    "icon": {
+      "count": 1,
+      "id": "allinzero:ghost_altar"
+    },
+    "title": {
+      "color": "blue",
+      "translate": "advancements.allinzero.touling.find_nether_altar.title"
+    },
+    "description": {
+      "translate": "advancements.allinzero.touling.find_nether_altar.description"
+    }
+  },
+  "requirements": [
+    [
+      "enter_nether_altar"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

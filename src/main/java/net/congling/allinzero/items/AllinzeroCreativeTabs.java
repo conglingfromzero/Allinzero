@@ -23,7 +23,16 @@ public class AllinzeroCreativeTabs {
         output.accept(AllinzeroItems.GHOST_STONE_BLOCK);
         output.accept(AllinzeroItems.GHOST_SPAR);
         output.accept(AllinzeroItems.SOUL_SPAR);
+        output.accept(AllinzeroItems.SOUL_CRYSTAL);
         output.accept(AllinzeroItems.SOUL_UPGRADE_SMITHING_TEMPLATE);
+        output.accept(AllinzeroItems.PHOS_PHOR_SPAWN_EGG);
+        output.accept(AllinzeroItems.SOUL_SHEEP_SPAWN_EGG);
+        output.accept(AllinzeroItems.SOUL_PIG_SPAWN_EGG);
+        output.accept(AllinzeroItems.TOULING_CONGLING_SPAWN_EGG);
+        // AoA3 联动物品：透灵纯宝石（仅在安装虚无世界3 时存在）
+        if (net.neoforged.fml.ModList.get().isLoaded("aoa3")) {
+            output.accept(net.congling.allinzero.integration.aoa.AoA3Integration.TOULING_REALMSTONE.get());
+        }
     }).build());
 
     public static final Supplier<CreativeModeTab> ALLINZERO_BLOCKS_TAB = CREATIVE_MODE_TAB.register("allinzero_blocks_tab",
@@ -32,6 +41,10 @@ public class AllinzeroCreativeTabs {
         output.accept(AllinzeroBlocks.SOUL_GRASS_BLOCK);
         output.accept(AllinzeroBlocks.SOUL_STONE);
         output.accept(AllinzeroBlocks.SOUL_STONEOCK);
+        output.accept(AllinzeroBlocks.SOUL_STONE_BRICKS);
+        output.accept(AllinzeroBlocks.SOUL_STONE_STAIRS);
+        output.accept(AllinzeroBlocks.SOUL_STONE_SLAB);
+        output.accept(AllinzeroBlocks.SOUL_STONE_WALL);
         output.accept(AllinzeroBlocks.SOUL_GLASS);
         output.accept(AllinzeroBlocks.SOUL_LEAVES);
         output.accept(AllinzeroBlocks.SOUL_WOOD);
@@ -41,18 +54,24 @@ public class AllinzeroCreativeTabs {
         output.accept(AllinzeroBlocks.STRIPPED_GHOST_WOOD);
         output.accept(AllinzeroBlocks.SOUL_WOOD_PLANKS);
         output.accept(AllinzeroBlocks.GHOST_WOOD_PLANKS);
+        output.accept(AllinzeroBlocks.SOUL_WOOL);
+        output.accept(AllinzeroBlocks.SOUL_WOOL_CARPET);
+        output.accept(AllinzeroItems.SOUL_BED);
+        output.accept(AllinzeroBlocks.GHOST_ALTAR);
+        output.accept(AllinzeroBlocks.SOUL_SAND);
     }).build());
 
     public static final Supplier<CreativeModeTab> ALLINZERO_PLANTS_TAB = CREATIVE_MODE_TAB.register("allinzero_plants_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack((ItemLike)AllinzeroBlocks.SOUL_GRASS.get()))
-                    .title(Component.translatable("creativetab.allinzero.allinzero_blocks")).displayItems((itemDisplayParameters, output) -> {
-                        output.accept(AllinzeroBlocks.SOUL_GRASS);
-                        output.accept(AllinzeroBlocks.SOUL_STONE_BRICKS);
-                        output.accept(AllinzeroBlocks.GHOST_CANES);
-                        output.accept(AllinzeroBlocks.GHOST_CANES_TOP);
-                        output.accept(AllinzeroBlocks.SOUL_TREE_SAPLING);
-                        output.accept(AllinzeroBlocks.GHOST_TREE_SAPLING);
-                    }).build());
+                    .title(Component.translatable("creativetab.allinzero.allinzero_plants")).displayItems((itemDisplayParameters, output) -> {
+        output.accept(AllinzeroBlocks.SOUL_GRASS);
+        output.accept(AllinzeroBlocks.GHOST_CANES);
+        output.accept(AllinzeroBlocks.GHOST_CANES_TOP);
+        output.accept(AllinzeroBlocks.SOUL_TREE_SAPLING);
+         output.accept(AllinzeroBlocks.GHOST_TREE_SAPLING);
+        output.accept(AllinzeroBlocks.SOUL_BUSH);
+        output.accept(AllinzeroBlocks.SOUL_CACTUS);
+}).build());
 
     public static final Supplier<CreativeModeTab> ALLINZERO_ORES_TAB = CREATIVE_MODE_TAB.register("allinzero_ores_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack((ItemLike)AllinzeroBlocks.GHOST_ORE.get()))
@@ -108,7 +127,20 @@ public class AllinzeroCreativeTabs {
                     .title(Component.translatable("creativetab.allinzero.allinzero_foods")).displayItems((itemDisplayParameters, output) -> {
         output.accept(AllinzeroItems.SOUL_BEEF);
         output.accept(AllinzeroItems.COOKED_SOUL_BEEF);
+        output.accept(AllinzeroItems.SOUL_MUTTON);
+        output.accept(AllinzeroItems.COOKED_SOUL_MUTTON);
+        output.accept(AllinzeroItems.SOUL_PORKCHOP);
+        output.accept(AllinzeroItems.COOKED_SOUL_PORKCHOP);
         output.accept(AllinzeroItems.SOUL_MILK);
+    }).build());
+
+    public static final Supplier<CreativeModeTab> ALLINZERO_SPAWN_EGGS_TAB = CREATIVE_MODE_TAB.register("allinzero_spwan_eggs_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack((ItemLike)AllinzeroItems.GHOSTSTONE.get()))
+                    .title(Component.translatable("creativetab.allinzero.allinzero_spwan_eggs")).displayItems((itemDisplayParameters, output) -> {
+        output.accept(AllinzeroItems.PHOS_PHOR_SPAWN_EGG);
+        output.accept(AllinzeroItems.SOUL_SHEEP_SPAWN_EGG);
+        output.accept(AllinzeroItems.SOUL_PIG_SPAWN_EGG);
+        output.accept(AllinzeroItems.TOULING_CONGLING_SPAWN_EGG);
     }).build());
 
     public static void register(IEventBus eventBus) {

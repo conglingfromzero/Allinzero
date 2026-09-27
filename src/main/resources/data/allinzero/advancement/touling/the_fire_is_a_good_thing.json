@@ -1,7 +1,7 @@
 {
   "parent": "allinzero:touling/souls_host",
   "criteria": {
-    "the_fire_is_a_good_thing": {
+    "fire_or_lava": {
       "conditions": {
         "entity": [
           {
@@ -11,7 +11,68 @@
               "type": "allinzero:touling_congling"
             }
           }
-        ]
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": true,
+              "id": "minecraft:is_fire"
+            }
+          ]
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "fire_aspect_melee": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "allinzero:touling_congling"
+            }
+          }
+        ],
+        "killing_blow": {
+          "is_direct": true,
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:fire_aspect",
+                    "levels": {
+                      "min": 1
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "flame_arrow": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "allinzero:touling_congling"
+            }
+          }
+        ],
+        "killing_blow": {
+          "direct_entity": {
+            "flags": {
+              "is_on_fire": true
+            },
+            "type": "minecraft:arrow"
+          }
+        }
       },
       "trigger": "minecraft:player_killed_entity"
     }
@@ -36,7 +97,13 @@
   },
   "requirements": [
     [
-      "fire_kill_touling_congling"
+      "fire_or_lava"
+    ],
+    [
+      "fire_aspect_melee"
+    ],
+    [
+      "flame_arrow"
     ]
   ],
   "sends_telemetry_event": true

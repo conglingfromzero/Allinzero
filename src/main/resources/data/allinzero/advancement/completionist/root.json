@@ -1,7 +1,7 @@
 {
   "criteria": {
     "allinzero:root": {
-      "trigger": "minecraft:inventory_changed"
+      "trigger": "minecraft:tick"
     }
   },
   "display": {
@@ -9,7 +9,7 @@
     "announce_to_chat": false,
     "background": "allinzero:textures/gui/advancements/backgrounds/soul_stoneock.png",
     "icon": {
-      "id": "allinzero:fromzero"
+      "id": "allinzero:ghost_sword"
     },
     "title": {
       "translate": "advancements.allinzero.root.title"

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "building",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "soul_glass",
+  "ingredient": {
+    "item": "allinzero:soul_sand"
+  },
+  "result": {
+    "id": "allinzero:soul_glass"
+  }
+}

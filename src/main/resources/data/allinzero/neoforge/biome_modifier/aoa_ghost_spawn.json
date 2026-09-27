@@ -1,0 +1,23 @@
+{
+  "type": "neoforge:add_spawns",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aoa3"
+    }
+  ],
+  "biomes": [
+    "allinzero:touling_plains",
+    "allinzero:touling_forest",
+    "allinzero:touling_desert",
+    "allinzero:touling_caves"
+  ],
+  "spawners": [
+    {
+      "type": "aoa3:ghost",
+      "weight": 8,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}
