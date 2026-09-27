@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "allinzero:block/aoa_touling_portal_ns"
+    },
+    "axis=z": {
+      "model": "allinzero:block/aoa_touling_portal_ew"
+    }
+  }
+}

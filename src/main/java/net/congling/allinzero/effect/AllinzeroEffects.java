@@ -14,6 +14,9 @@ public class AllinzeroEffects {
     public static final DeferredHolder<MobEffect, SoulErosionEffect> SOUL_EROSION =
             MOB_EFFECTS.register("soul_erosion", SoulErosionEffect::new);
 
+    public static final DeferredHolder<MobEffect, SoulPossessionEffect> SOUL_POSSESSION =
+            MOB_EFFECTS.register("soul_possession", SoulPossessionEffect::new);
+
     public static void register(IEventBus eventBus) {
         MOB_EFFECTS.register(eventBus);
     }

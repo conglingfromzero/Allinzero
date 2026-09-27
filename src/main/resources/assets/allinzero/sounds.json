@@ -1,0 +1,17 @@
+{
+  "phosphor_shoot": {
+    "subtitle": "subtitles.allinzero.phosphor_shoot",
+    "sounds": [
+      {
+        "name": "minecraft:mob/guardian/attack",
+        "volume": 1.0,
+        "pitch": 1.2
+      },
+      {
+        "name": "minecraft:mob/blaze/shoot",
+        "volume": 1.0,
+        "pitch": 0.8
+      }
+    ]
+  }
+}

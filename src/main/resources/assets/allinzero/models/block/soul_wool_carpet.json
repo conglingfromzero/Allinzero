@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+    "wool": "allinzero:block/soul_wool",
+    "particle": "allinzero:block/soul_wool"
+  }
+}

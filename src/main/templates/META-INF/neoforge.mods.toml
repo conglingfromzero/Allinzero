@@ -10,7 +10,7 @@ license="All Rights Reserved"
 
 modId="allinzero"
 
-version="1.0.1"
+version="1.1"
 
 displayName="Allinzero"
 
@@ -18,16 +18,16 @@ displayName="Allinzero"
 
 displayURL="https://space.bilibili.com/593702908?spm_id_from=333.1007.0.0"
 
-logoFile="logo.png"
+logoFile="allinzero.png"
 
 credits="感谢各位的支持"
 
-authors="喜欢写文的从零"
+authors="主制作：喜欢写文的从零、辅助：Trae CN"
 
-description='''一款高难度大型冒险模组，感谢下载游玩'''
+description='''一款高难度大型冒险模组，感谢下载游玩,本模组使用Trae CN参与辅助制作'''
 
-#[[mixins]]
-#config="allinzero.mixins.json"
+[[mixins]]
+config="allinzero.mixins.json"
 
 #[[accessTransformers]]
 #file="META-INF/accesstransformer.cfg"
@@ -48,14 +48,14 @@ side="BOTH"
 
 [[dependencies.allinzero]]
 modId="smartbrainlib"
-mandatory=true
-versionRange="[1.15,)"
+type="required"
+versionRange="[1.16.11,)"
 ordering="NONE"
-side="SERVER"
+side="BOTH"
 
 [[dependencies.allinzero]]
 modId="geckolib"
-mandatory=true
-versionRange="[4.6.1,)"
+type="required"
+versionRange="[4.9.2,)"
 ordering="NONE"
-side="SERVER"
+side="BOTH"

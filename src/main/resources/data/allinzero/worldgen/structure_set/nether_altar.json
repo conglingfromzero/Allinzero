@@ -1,0 +1,15 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 711325002,
+    "separation": 36,
+    "spacing": 48,
+    "spread_type": "linear"
+  },
+  "structures": [
+    {
+      "structure": "allinzero:nether_altar",
+      "weight": 1
+    }
+  ]
+}

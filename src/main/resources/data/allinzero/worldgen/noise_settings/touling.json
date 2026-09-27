@@ -329,7 +329,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "allinzero:soul_stoneock"
+            "Name": "allinzero:soul_stone"
           }
         }
       },
@@ -338,7 +338,8 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "allinzero:touling_plains"
+            "allinzero:touling_plains",
+            "allinzero:touling_forest"
           ]
         },
         "then_run": {
@@ -359,6 +360,37 @@
               "type": "minecraft:block",
               "result_state": {
                 "Name": "allinzero:soul_grass_block"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
+            "allinzero:touling_desert"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:condition",
+          "if_true": {
+            "type": "minecraft:above_preliminary_surface"
+          },
+          "then_run": {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:stone_depth",
+              "offset": 0,
+              "surface_type": "floor",
+              "add_surface_depth": false,
+              "secondary_depth_range": 0
+            },
+            "then_run": {
+              "type": "minecraft:block",
+              "result_state": {
+                "Name": "allinzero:soul_sand"
               }
             }
           }

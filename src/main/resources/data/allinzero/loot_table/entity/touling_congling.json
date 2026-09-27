@@ -1,4 +1,5 @@
 {
+  "type": "minecraft:entity",
   "pools": [
     {
       "bonus_rolls": {
@@ -31,5 +32,6 @@
       "name": "loot",
       "rolls": 1.0
     }
-  ]
+  ],
+  "random_sequence": "allinzero:entities/touling_congling"
 }

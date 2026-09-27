@@ -1,3 +1,6 @@
 {
-  "parent": "allinzero:block/ghost_tree_sapling"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "allinzero:block/ghost_tree_sapling"
+  }
 }

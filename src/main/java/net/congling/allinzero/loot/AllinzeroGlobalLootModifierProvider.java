@@ -21,8 +21,14 @@ public class AllinzeroGlobalLootModifierProvider extends GlobalLootModifierProvi
     protected void start() {
         this.add("berry_from_wither",
                 new AddItemModifier(new LootItemCondition[]{
-                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/bosses/wither")).build(),
+                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/wither")).build(),
                         LootItemRandomChanceCondition.randomChance(1.0f).build()
+                }, AllinzeroItems.SOUL_UPGRADE_SMITHING_TEMPLATE.get()));
+
+        this.add("soul_template_from_ancient_city",
+                new AddItemModifier(new LootItemCondition[]{
+                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("chests/ancient_city")).build(),
+                        LootItemRandomChanceCondition.randomChance(0.005f).build()
                 }, AllinzeroItems.SOUL_UPGRADE_SMITHING_TEMPLATE.get()));
     }
 

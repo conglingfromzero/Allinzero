@@ -8,6 +8,8 @@ import net.minecraft.world.level.biome.Biome;
 
 public class AllinzeroBiomes {
     public static final ResourceKey<Biome> TOULING_PLAINS = makeBiomeKey("touling_plains");
+    public static final ResourceKey<Biome> TOULING_FOREST = makeBiomeKey("touling_forest");
+    public static final ResourceKey<Biome> TOULING_DESERT = makeBiomeKey("touling_desert");
     public static final ResourceKey<Biome> TOULING_CAVES = makeBiomeKey("touling_caves");
 
     private static ResourceKey<Biome> makeBiomeKey(String name) {

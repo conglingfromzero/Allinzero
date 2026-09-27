@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cactus",
+  "textures": {
+    "bottom": "allinzero:block/soul_cactus_bottom",
+    "side": "allinzero:block/soul_cactus_side",
+    "top": "allinzero:block/soul_cactus_top"
+  }
+}

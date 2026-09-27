@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "allinzero:soul_grass_block",
+    "allinzero:soul_stone",
+    "allinzero:soul_stone_stairs",
+    "allinzero:soul_stone_slab",
+    "allinzero:soul_stone_wall",
+    "allinzero:soul_ore",
+    "allinzero:deepslate_soul_ore",
+    "allinzero:ghost_ore",
+    "allinzero:deepslate_ghost_ore",
+    "allinzero:touling_ghost_ore",
+    "allinzero:touling_soul_ore"
+  ]
+}

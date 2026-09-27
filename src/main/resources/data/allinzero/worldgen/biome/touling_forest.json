@@ -1,0 +1,74 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.7,
+  "downfall": 0.8,
+  "effects": {
+    "foliage_color": 6209386,
+    "grass_color": 7323244,
+    "sky_color": 7972607,
+    "fog_color": 12638463,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    }
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [
+      {
+        "type": "allinzero:soul_cow",
+        "maxCount": 4,
+        "minCount": 2,
+        "weight": 20
+      },
+      {
+        "type": "allinzero:soul_sheep",
+        "maxCount": 4,
+        "minCount": 2,
+        "weight": 20
+      },
+      {
+        "type": "allinzero:soul_pig",
+        "maxCount": 4,
+        "minCount": 2,
+        "weight": 20
+      }
+    ],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "allinzero:touling_cave",
+      "allinzero:touling_cave_extra_underground",
+      "allinzero:touling_canyon"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "allinzero:ghost_tree",
+      "allinzero:soul_tree",
+      "allinzero:patch_soul_grass",
+      "allinzero:patch_ghost_canes"
+    ],
+    []
+  ]
+}

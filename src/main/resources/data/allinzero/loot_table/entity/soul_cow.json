@@ -32,5 +32,6 @@
       "name": "loot",
       "rolls": 1.0
     }
-  ]
+  ],
+  "random_sequence": "allinzero:entities/soul_cow"
 }

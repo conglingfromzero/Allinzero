@@ -1,0 +1,8 @@
+{
+  "parent": "aoa3:block/portal_ns",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "particle": "allinzero:block/touling_portal",
+    "texture": "allinzero:block/touling_portal"
+  }
+}

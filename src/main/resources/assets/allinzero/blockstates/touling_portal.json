@@ -1,10 +1,10 @@
 {
   "variants": {
     "axis=x": {
-      "model": "allinzero:block/touling_portal_ew"
+      "model": "allinzero:block/touling_portal_ns"
     },
     "axis=z": {
-      "model": "allinzero:block/touling_portal_ns"
+      "model": "allinzero:block/touling_portal_ew"
     }
   }
 }

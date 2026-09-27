@@ -1,0 +1,42 @@
+{
+  "parent": "allinzero:completionist/more_energy",
+  "criteria": {
+    "enter_abandoned_psychoport": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "allinzero:abandoned_psychoport"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "show_toast": true,
+    "announce_to_chat": true,
+    "icon": {
+      "count": 1,
+      "id": "allinzero:ghost_stone_block"
+    },
+    "title": {
+      "color": "blue",
+      "translate": "advancements.allinzero.completionist.abandoned_psychoport.title"
+    },
+    "description": {
+      "translate": "advancements.allinzero.completionist.abandoned_psychoport.description"
+    }
+  },
+  "requirements": [
+    [
+      "enter_abandoned_psychoport"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

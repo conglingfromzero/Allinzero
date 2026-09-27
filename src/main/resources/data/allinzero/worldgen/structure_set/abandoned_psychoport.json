@@ -1,0 +1,15 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 711325001,
+    "separation": 15,
+    "spacing": 28,
+    "spread_type": "linear"
+  },
+  "structures": [
+    {
+      "structure": "allinzero:abandoned_psychoport",
+      "weight": 1
+    }
+  ]
+}

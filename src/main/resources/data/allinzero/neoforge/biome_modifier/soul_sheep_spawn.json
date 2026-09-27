@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": ["allinzero:touling_plains", "allinzero:touling_caves"],
+  "spawners": [
+    {
+      "type": "allinzero:soul_sheep",
+      "weight": 12,
+      "minCount": 2,
+      "maxCount": 4
+    }
+  ]
+}
